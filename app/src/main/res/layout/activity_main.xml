@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/red">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/tvdisplay"
+
+                android:textSize="40dp"
+                android:text="0.0"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="5dp"
+                android:background="#640000"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textColor="@color/whitesmoke"
+                android:layout_weight="0.30"
+                android:textAllCaps="false"/>
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btclear"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="5dp"
+                android:layout_gravity="center_vertical"
+                android:text="@string/clear"
+                android:layout_weight="1"
+                android:textColor="@color/aliceblue"
+                android:background="@color/darkred"
+                android:textSize="40dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/lyfondo"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btsiete"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="5dp"
+                android:textSize="20dp"
+                android:text="@string/siete"
+                android:background="@android:color/black"
+                android:textColor="@color/white"
+                tools:layout_editor_absoluteY="205dp"
+                tools:layout_editor_absoluteX="16dp"
+                android:layout_weight="1"
+                android:selectAllOnFocus="false" />
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btocho"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="5dp"
+                android:textSize="20dp"
+                android:text="@string/ocho"
+                android:background="@android:color/black"
+                android:textColor="@color/white"
+                tools:layout_editor_absoluteY="205dp"
+                tools:layout_editor_absoluteX="210dp"
+                android:layout_weight="1"/>
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btnueve"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="5dp"
+                android:textSize="20dp"
+                android:text="@string/nueve"
+                android:background="@android:color/black"
+                android:textColor="@color/white"
+                tools:layout_editor_absoluteY="205dp"
+                tools:layout_editor_absoluteX="111dp"
+                android:layout_weight="1"/>
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btsuma"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="5dp"
+                android:textSize="20dp"
+                android:text="@string/mas"
+                android:background="@android:color/black"
+                android:textColor="@color/white"
+                tools:layout_editor_absoluteY="205dp"
+                tools:layout_editor_absoluteX="111dp"
+                android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btcuatro"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="5dp"
+                android:textSize="20dp"
+                android:text="@string/cuatro"
+                android:background="@android:color/black"
+                android:textColor="@color/white"
+                tools:layout_editor_absoluteY="205dp"
+                tools:layout_editor_absoluteX="16dp"
+                android:layout_weight="1"/>
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btcinco"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="5dp"
+                android:textSize="20dp"
+                android:text="@string/cinco"
+                android:background="@android:color/black"
+                android:textColor="@color/white"
+                tools:layout_editor_absoluteY="205dp"
+                tools:layout_editor_absoluteX="210dp"
+                android:layout_weight="1"/>
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btseis"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="5dp"
+                android:textSize="20dp"
+                android:text="@string/seis"
+                android:background="@android:color/black"
+                android:textColor="@color/white"
+                tools:layout_editor_absoluteY="205dp"
+                tools:layout_editor_absoluteX="111dp"
+                android:layout_weight="1"/>
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btresta"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="5dp"
+                android:textSize="20dp"
+                android:text="@string/menos"
+                android:background="@android:color/black"
+                android:textColor="@color/white"
+                tools:layout_editor_absoluteY="205dp"
+                tools:layout_editor_absoluteX="111dp"
+                android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btuno"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="5dp"
+                android:textSize="20dp"
+                android:text="@string/uno"
+                android:background="@android:color/black"
+                android:textColor="@color/white"
+                tools:layout_editor_absoluteY="205dp"
+                tools:layout_editor_absoluteX="16dp"
+                android:layout_weight="1"/>
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btdos"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="5dp"
+                android:textSize="20dp"
+                android:text="@string/dos"
+                android:background="@android:color/black"
+                android:textColor="@color/white"
+                tools:layout_editor_absoluteY="205dp"
+                tools:layout_editor_absoluteX="210dp"
+                android:layout_weight="1"/>
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/bttres"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="5dp"
+                android:textSize="20dp"
+                android:text="@string/tres"
+                android:background="@android:color/black"
+                android:textColor="@color/white"
+                tools:layout_editor_absoluteY="205dp"
+                tools:layout_editor_absoluteX="111dp"
+                android:layout_weight="1"/>
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btproducto"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="5dp"
+                android:textSize="20dp"
+                android:text="@string/por"
+                android:background="@android:color/black"
+                android:textColor="@color/white"
+                tools:layout_editor_absoluteY="205dp"
+                tools:layout_editor_absoluteX="111dp"
+                android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btpunto"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="5dp"
+                android:textSize="20dp"
+                android:text="@string/punto"
+                android:background="@android:color/black"
+                android:textColor="@color/white"
+                tools:layout_editor_absoluteY="205dp"
+                tools:layout_editor_absoluteX="16dp"
+                android:layout_weight="1"/>
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btcero"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="5dp"
+                android:textSize="20dp"
+                android:text="@string/cero"
+                android:background="@android:color/black"
+                android:textColor="@color/white"
+                tools:layout_editor_absoluteY="205dp"
+                tools:layout_editor_absoluteX="210dp"
+                android:layout_weight="1"/>
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btigual"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="5dp"
+                android:textSize="20dp"
+                android:text="@string/igual"
+                android:background="@android:color/black"
+                android:textColor="@color/white"
+                tools:layout_editor_absoluteY="205dp"
+                tools:layout_editor_absoluteX="111dp"
+                android:layout_weight="1"/>
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btcociente"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginVertical="5dp"
+                android:textSize="20dp"
+                android:text="@string/divido"
+                android:background="@android:color/black"
+                android:textColor="@color/white"
+                tools:layout_editor_absoluteY="205dp"
+                tools:layout_editor_absoluteX="111dp"
+                android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
